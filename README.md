@@ -11,7 +11,7 @@ Aplikasi web untuk:
 
 | Versi | Model | Link |
 |---|---|---|
-| Utama | Gradient Boosting | https://prediksi-cari-harga-rumah-jabodetabek.streamlit.app |
+| Utama | Gradient Boosting | *(isi link setelah deploy dari repo ini)* |
 | Pembanding | Linear Regression | *(isi link jika sudah di-deploy)* |
 | Pembanding | XGBoost | *(isi link jika sudah di-deploy)* |
 
@@ -58,9 +58,8 @@ Temuan utama:
 ├── harga_per_area.csv                # harga rumah standar per area
 ├── titik_acuan.csv                   # koordinat kampus & kawasan industri
 ├── ringkasan_titik_acuan.csv         # harga di sekitar tiap kampus/kawasan industri
-├── .streamlit/config.toml            # tema warna aplikasi
-└── notebooks/
-    └── Proyek_ML_Harga_Rumah_Lengkap.ipynb   # seluruh tahapan: EDA → preprocessing → modeling → lokasi
+├── Proyek_ML_Harga_Rumah_Lengkap.ipynb   # notebook lengkap: EDA → preprocessing → modeling → lokasi
+└── .streamlit/config.toml            # tema warna aplikasi
 ```
 
 ## ▶️ Menjalankan di Komputer Sendiri
