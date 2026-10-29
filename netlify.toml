@@ -1,0 +1,12 @@
+[build]
+  publish = "."
+  functions = "functions"
+
+# Menandai bahwa Netlify perlu memproses function menggunakan Python
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
